@@ -1,0 +1,192 @@
+@mixin headerA(){
+	font-size: $doce;
+	color: black;
+}
+
+@mixin headerI(){
+	margin: 0;
+    width: 15px;
+}
+
+@mixin textSlide(){
+	padding-top: 100px;
+	font-size: 65px;
+	line-height: 77px;
+}
+
+@mixin fondo(){
+	position:relative;
+	background-color:$blanco;
+	margin: 450px 3% 0;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	padding: $treinta $cero $cero;
+	box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+@mixin titulos(){
+	color: #3c4858;
+	font-family: $font;	
+	font-size: 36.4px;
+    line-height: 54.6px;
+}
+
+@mixin bajadaTitulos(){
+	margin-bottom: 15px;
+  	font-size: 17.5px;
+    line-height: 27.125px;
+   	color:$gris-text;
+   	font-weight: $doscientos-w;	
+   	padding-bottom: $veinte;
+}
+
+@mixin bajadaTitulosPrice(){
+	margin-bottom: 15px;
+	font-size: 16px;
+	word-wrap: break-word;
+    line-height: 25.2px;
+   	color:$gris-text;
+   	font-weight: $doscientos-w;	
+   	padding-bottom: $veinte;
+}
+
+@mixin aboutImg(){
+	margin:0;
+	height: 35%;
+	padding: 65px 10px 30px;
+	background-image: url(../img/img_city.jpg);
+	background-attachment: fixed;
+}
+
+@mixin contactImg(){
+	margin:0;
+	height: 20%;
+	padding: 65px 10px 30px;
+	background-image: url(../img/img_city.jpg);
+}
+
+@mixin hoverPortafolio(){
+	background-color: rgba(0,0,0,0.5);
+	margin-left:3%;
+	border-radius: 6px;
+	width: 94%;
+	height: 90.5%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left:0;
+	color: $blanco;
+}
+
+@mixin hoverPortafolioMed(){
+	background-color: rgba(0,0,0,0.5);
+	margin-left:3.5%;
+	border-radius: 6px;
+	width: 93%;
+	height: 88.5%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left:0;
+	color: $blanco;
+}
+
+@mixin hoverPortafolioBig(){
+	background-color: rgba(0,0,0,0.5);
+	margin-left:3.5%;
+	border-radius: 6px;
+    padding-top: 60px;	
+	width: 93%;
+	height: 93.5%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left:0;
+	color: $blanco;	
+}
+
+@mixin hoverPortafolioBigM(){
+	background-color: rgba(0,0,0,0.5);
+	margin-left:3.5%;
+	border-radius: 6px;
+    padding-top: 20px;	
+	width: 93%;
+	height: 89.5%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left:0;
+	color: $blanco;	
+}
+
+@mixin miniTitulos(){
+	color: #3c4858;
+	font-family: $font;	
+	font-size: 18px;
+}
+
+@mixin bajadaTitulosDos(){
+	margin-bottom: 15px;
+  	font-size: 14px;
+    line-height: 20px;  	
+   	color:$gris-text;
+   	font-weight: $doscientos-w;	
+   	padding-bottom: $veinte;
+}
+
+@mixin cajaPro(){
+	background-color: $blanco;
+	width: $cien-ciento;
+	margin-bottom: $cincuenta;
+	border-radius: 6px;
+	color: rgba(0,0,0,.87);
+	background: $blanco;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+@mixin signoPeso(){
+	font-size: 20px;
+	font-weight: normal;
+   	line-height: 1;
+   	color: #777;
+}
+
+@mixin cajaPrice(){
+	background-color:$blanco;
+	width:100%;
+	padding: 30px;
+	border-radius: 6px;
+	box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+@mixin cajaPriceDos(){
+	background-color:transparent;
+	width:100%;
+	padding: 30px;
+	border-radius: 6px;
+}
+
+@mixin bajadaClient(){
+	margin-bottom: 15px;
+  	font-size: 12px;
+    line-height: 27.125px;
+   	color:$gris-text;
+   	font-weight: $doscientos-w;	
+   	padding-bottom: $veinte;
+   	font-weight: $doscientos-w;
+}
+
+@mixin titulosBlancos(){
+	margin-bottom: 15px;
+  	font-size: 17.5px;
+    line-height: 27.125px;
+	color: $blanco;
+   	font-weight: $doscientos-w;	
+   	padding-bottom: $veinte;
+}
+
+@mixin miniTitulosBlancos(){
+	color: $blanco;
+	font-family: $font;	
+	font-size: 18px;
+}
