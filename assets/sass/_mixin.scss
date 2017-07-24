@@ -134,7 +134,7 @@
    	padding-bottom: $veinte;
 }
 
-@mixin cajaPro(){
+@mixin contenedor(){
 	background-color: $blanco;
 	width: $cien-ciento;
 	margin-bottom: $cincuenta;
@@ -151,7 +151,7 @@
    	color: #777;
 }
 
-@mixin cajaPrice(){
+@mixin contPrecio(){
 	background-color:$blanco;
 	width:100%;
 	padding: 30px;
@@ -159,7 +159,7 @@
 	box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
 }
 
-@mixin cajaPriceDos(){
+@mixin contPrecioDos(){
 	background-color:transparent;
 	width:100%;
 	padding: 30px;

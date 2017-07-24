@@ -29,7 +29,7 @@ header {
 		}	
 	}
 
-	.el-menu {
+	.menu {
 		height: 80px;
 		background-color: #FFF;	
 		color: $gris-text;
@@ -146,8 +146,8 @@ header {
 }
 
 @media only screen and (max-width: 992px) {
-	header{	
-		.el-menu {
+	header {	
+		.menu {
 			height: 70px;
 			background-color: #FFF;	
 			.nav-wrapper {
@@ -210,9 +210,9 @@ header {
 
 .pop-fondo {
 	@include fondo();
-	.features{
+	.features {
 		padding: 50px 20px;
-		.descripcion{
+		.descripcion {
 			color: $gris-text;
 			margin-bottom: 15px;
     		font-size: 17.5px;
@@ -291,7 +291,7 @@ header {
 		}
 		.tarjetas-product {
 			.caja-product{
-				@include cajaPro();
+				@include contenedor();
 				.img-card{
 					position: relative;
 					top: -40px;
@@ -499,7 +499,7 @@ header {
 		}
 		.tarjeta-price {
 			.caja-precio{
-				@include cajaPrice();
+				@include contPrecio();
 				h6{
 					color: $gris-text;
 					font-size: 15px;	
@@ -534,7 +534,7 @@ header {
 				}	
 			}
 			.caja-precio-dos {
-				@include cajaPriceDos();
+				@include contPrecioDos();
 				h6{
 					color: $gris-text;
 					font-size: 15px;	
@@ -714,7 +714,7 @@ header {
 			}
 		}
 		.caja-contact {
-			@include cajaPrice();
+			@include contPrecio();
 			.caja-titulo-contact {
 				background-color: $fucsia;
 				color: $blanco;
@@ -810,13 +810,12 @@ header {
 	}
 }
 
-
 @media only screen and (max-width: 992px){
 	.pop-fondo {
-		.about{
+		.about {
 			.about-img {
 				.el-iframe {
-					iframe{
+					iframe {
 					    width: 100%;
 					    height: 160px;
 					}
@@ -831,7 +830,7 @@ header {
 						position: relative;
 	    				top: 70px;  				    				
 					}
-					h4 {
+					h4{
 						position: relative;
 	    				top: 70px;
 					}

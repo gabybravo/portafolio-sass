@@ -6793,36 +6793,36 @@ header {
     header #dropdown-sections li a i {
       margin: 0;
       width: 15px; }
-  header .el-menu {
+  header .menu {
     height: 80px;
     background-color: #FFF;
     color: #999;
     position: fixed;
     top: 0;
     z-index: 10; }
-    header .el-menu .nav-wrapper .brand-logo {
+    header .menu .nav-wrapper .brand-logo {
       color: #484848;
       font-size: 18px;
       padding-left: 50px;
       font-weight: 200; }
-    header .el-menu .nav-wrapper .botones-nav {
+    header .menu .nav-wrapper .botones-nav {
       padding-right: 50px; }
-      header .el-menu .nav-wrapper .botones-nav li a i {
+      header .menu .nav-wrapper .botones-nav li a i {
         color: #484848; }
-      header .el-menu .nav-wrapper .botones-nav li a span {
+      header .menu .nav-wrapper .botones-nav li a span {
         color: #484848;
         font-size: 12px; }
-      header .el-menu .nav-wrapper .botones-nav li a .material-icons {
+      header .menu .nav-wrapper .botones-nav li a .material-icons {
         color: #484848;
         font-size: 12px;
         padding-top: 3px;
         font-weight: 200; }
-      header .el-menu .nav-wrapper .botones-nav li .btn, header .el-menu .nav-wrapper .botones-nav li .btn-large {
+      header .menu .nav-wrapper .botones-nav li .btn, header .menu .nav-wrapper .botones-nav li .btn-large {
         background-color: #e91e63; }
-        header .el-menu .nav-wrapper .botones-nav li .btn i, header .el-menu .nav-wrapper .botones-nav li .btn-large i {
+        header .menu .nav-wrapper .botones-nav li .btn i, header .menu .nav-wrapper .botones-nav li .btn-large i {
           font-size: 12px;
           color: #FFF; }
-      header .el-menu .nav-wrapper .botones-nav li a:hover {
+      header .menu .nav-wrapper .botones-nav li a:hover {
         background-color: rgba(255, 255, 255, 0.1); }
   header .el-navegador {
     position: fixed;
@@ -6870,31 +6870,31 @@ header {
         line-height: 77px; }
 
 @media only screen and (max-width: 992px) {
-  header .el-menu {
+  header .menu {
     height: 70px;
     background-color: #FFF; }
-    header .el-menu .nav-wrapper .brand-logo {
+    header .menu .nav-wrapper .brand-logo {
       position: relative;
       bottom: 20px;
       left: 15%;
       top: 6%;
       font-size: 18px;
       padding-left: 0; }
-    header .el-menu .nav-wrapper .button-collapse {
+    header .menu .nav-wrapper .button-collapse {
       color: #484848; }
-  header .el-navegador {
+  header .navegador {
     height: 70px;
     background-color: rgba(0, 0, 0, 0.8); }
-    header .el-navegador .nav-wrapper .brand-logo {
+    header .navegador .nav-wrapper .brand-logo {
       position: relative;
       bottom: 20px;
       left: 15%;
       font-size: 18px;
       padding-left: 0; }
-    header .el-navegador .nav-wrapper .button-collapse {
+    header .navegador .nav-wrapper .button-collapse {
       position: relative;
       bottom: 20px; }
-    header .el-navegador .nav-wrapper #mobile-demo li .btn, header .el-navegador .nav-wrapper #mobile-demo li .btn-large {
+    header .navegador .nav-wrapper #mobile-demo li .btn, header .navegador .nav-wrapper #mobile-demo li .btn-large {
       background-color: #e91e63; }
   header .carousel .img-1 .text-slider {
     padding-top: 100px;
@@ -6933,7 +6933,7 @@ header {
       font-size: 20px;
       color: #3c4858;
       margin: 30px 0 15px;
-      font-family: "Alfa Slab One", cursive; }
+      font-family: 'Spectral', serif; }
     .pop-fondo .features .features-info p {
       color: #999;
       font-size: 16px;
@@ -6951,7 +6951,7 @@ header {
         color: #FFF;
         padding-right: 10%; }
         .pop-fondo .about .about-img .text-about h2 {
-          font-family: "Alfa Slab One", cursive;
+          font-family: 'Spectral', serif;
           font-size: 36.4px; }
         .pop-fondo .about .about-img .text-about p {
           font-size: 17.5px;
@@ -6967,7 +6967,7 @@ header {
     background-color: #ECECEC; }
     .pop-fondo .product .text-product h2 {
       color: #3c4858;
-      font-family: "Alfa Slab One", cursive;
+      font-family: 'Spectral', serif;
       font-size: 36.4px;
       line-height: 54.6px; }
     .pop-fondo .product .text-product h5 {
@@ -7008,7 +7008,7 @@ header {
         line-height: 28.21px; }
         .pop-fondo .product .tarjetas-product .caja-product h4 a {
           color: #3c4858;
-          font-family: "Alfa Slab One", cursive; }
+          font-family: 'Spectral', serif; }
       .pop-fondo .product .tarjetas-product .caja-product .product-card-description {
         height: 70px;
         padding: 0 20px;
@@ -7025,7 +7025,7 @@ header {
     padding: 50px 20px; }
     .pop-fondo .portfolio .text-portfolio h2 {
       color: #3c4858;
-      font-family: "Alfa Slab One", cursive;
+      font-family: 'Spectral', serif;
       font-size: 36.4px;
       line-height: 54.6px; }
     .pop-fondo .portfolio .text-portfolio h5 {
@@ -7073,7 +7073,7 @@ header {
           position: relative;
           top: 90px;
           margin: 2px;
-          font-family: "Alfa Slab One", cursive;
+          font-family: 'Spectral', serif;
           font-size: 20px;
           line-height: 50px; }
       .pop-fondo .portfolio .img-portfolio-r .mostrar-big {
@@ -7102,14 +7102,14 @@ header {
           position: relative;
           top: 90px;
           margin: 2px;
-          font-family: "Alfa Slab One", cursive;
+          font-family: 'Spectral', serif;
           font-size: 20px;
           line-height: 50px; }
   .pop-fondo .team {
     padding: 50px 20px; }
     .pop-fondo .team .text-team h2 {
       color: #3c4858;
-      font-family: "Alfa Slab One", cursive;
+      font-family: 'Spectral', serif;
       font-size: 36.4px;
       line-height: 54.6px; }
     .pop-fondo .team .text-team h5 {
@@ -7126,7 +7126,7 @@ header {
       margin-bottom: 50px; }
       .pop-fondo .team .ficha-team .text-ficha h4 {
         color: #3c4858;
-        font-family: "Alfa Slab One", cursive;
+        font-family: 'Spectral', serif;
         font-size: 18px; }
       .pop-fondo .team .ficha-team .text-ficha h6 {
         color: #999;
@@ -7159,7 +7159,7 @@ header {
     padding: 50px 20px; }
     .pop-fondo .price .text-price h2 {
       color: #3c4858;
-      font-family: "Alfa Slab One", cursive;
+      font-family: 'Spectral', serif;
       font-size: 36.4px;
       line-height: 54.6px; }
     .pop-fondo .price .text-price p {
@@ -7183,7 +7183,7 @@ header {
         color: #3c4858;
         margin-top: 30px;
         font-size: 50px;
-        font-family: "Alfa Slab One", cursive; }
+        font-family: 'Spectral', serif; }
         .pop-fondo .price .tarjeta-price .caja-precio h3 sub {
           font-size: 20px;
           font-weight: normal;
@@ -7215,7 +7215,7 @@ header {
         color: #3c4858;
         margin-top: 30px;
         font-size: 50px;
-        font-family: "Alfa Slab One", cursive; }
+        font-family: 'Spectral', serif; }
         .pop-fondo .price .tarjeta-price .caja-precio-dos h3 sub {
           font-size: 20px;
           font-weight: normal;
@@ -7239,7 +7239,7 @@ header {
     padding: 50px 20px; }
     .pop-fondo .testimonials .text-testimonials h2 {
       color: #3c4858;
-      font-family: "Alfa Slab One", cursive;
+      font-family: 'Spectral', serif;
       font-size: 36.4px;
       line-height: 54.6px; }
     .pop-fondo .testimonials .text-testimonials h5 {
@@ -7257,7 +7257,7 @@ header {
         box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); }
       .pop-fondo .testimonials .text-c-tes h4 {
         color: #3c4858;
-        font-family: "Alfa Slab One", cursive;
+        font-family: 'Spectral', serif;
         font-size: 18px; }
       .pop-fondo .testimonials .text-c-tes h6 {
         margin-bottom: 15px;
@@ -7283,7 +7283,7 @@ header {
     .pop-fondo .suscribe .text-suscribe {
       color: #FFF; }
       .pop-fondo .suscribe .text-suscribe h2 {
-        font-family: "Alfa Slab One", cursive;
+        font-family: 'Spectral', serif;
         font-size: 36.4px; }
       .pop-fondo .suscribe .text-suscribe h5 {
         margin-bottom: 15px;
@@ -7315,7 +7315,7 @@ header {
     padding: 50px 20px; }
     .pop-fondo .blog .text-blog h2 {
       color: #3c4858;
-      font-family: "Alfa Slab One", cursive;
+      font-family: 'Spectral', serif;
       font-size: 36.4px;
       line-height: 54.6px; }
     .pop-fondo .blog .text-blog h5 {
@@ -7344,7 +7344,7 @@ header {
         color: #EF3129; }
     .pop-fondo .blog .text-c-blog h4 {
       color: #3c4858;
-      font-family: "Alfa Slab One", cursive;
+      font-family: 'Spectral', serif;
       font-size: 18px; }
     .pop-fondo .blog .text-c-blog p {
       margin-bottom: 15px;
@@ -7365,7 +7365,7 @@ header {
       margin-bottom: 30px;
       color: #FFF; }
       .pop-fondo .contact .text-contact h2 {
-        font-family: "Alfa Slab One", cursive;
+        font-family: 'Spectral', serif;
         font-size: 36.4px; }
       .pop-fondo .contact .text-contact h5 {
         font-size: 17.5px;
@@ -7375,7 +7375,7 @@ header {
         font-size: 36.4px; }
       .pop-fondo .contact .text-contact .text-m-contact h4 {
         color: #FFF;
-        font-family: "Alfa Slab One", cursive;
+        font-family: 'Spectral', serif;
         font-size: 18px; }
       .pop-fondo .contact .text-contact .text-m-contact p {
         font-size: 14px;
@@ -7396,7 +7396,7 @@ header {
         top: -50px;
         box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); }
         .pop-fondo .contact .caja-contact .caja-titulo-contact h4 {
-          font-family: "Alfa Slab One", cursive;
+          font-family: 'Spectral', serif;
           font-size: 20px; }
       .pop-fondo .contact .caja-contact .contenido .el-btn .btn-contact #btn-c {
         background-color: #e91e63; }
@@ -7406,7 +7406,7 @@ header {
     background-color: #26272A; }
     .pop-fondo footer .text-footer h5 {
       color: #FFF;
-      font-family: "Alfa Slab One", cursive;
+      font-family: 'Spectral', serif;
       font-size: 18px;
       margin-bottom: 20px; }
     .pop-fondo footer .text-footer p {
